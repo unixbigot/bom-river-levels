@@ -1,0 +1,8 @@
+node-red/settings.js
+node-red/.config*
+node-red/.flows*
+node-red/.session*
+node-red/*~
+fly.toml
+node-red/flows_cred.json
+static.tar
