@@ -1,0 +1,28 @@
+{
+  "name": "node-red-project",
+  "description": "A Node-RED Project",
+  "version": "0.0.1",
+  "main": "node_modules/node-red/red/red.js",
+  "scripts": {
+    "start": "node $NODE_OPTIONS node_modules/node-red/red.js -v $FLOWS"
+  },
+    "dependencies": {
+	"moment": "*",
+    "node-red": "*",
+    "node-red-contrib-color-convert": "*",
+    "node-red-contrib-elasticsearchcdb": "*",
+    "node-red-contrib-ftp": "0.0.6",
+    "node-red-contrib-modbus": "*",
+    "node-red-contrib-os": "*",
+    "node-red-contrib-readdir": "*",
+    "node-red-contrib-ui-led": "~0.4.11",
+    "node-red-contrib-web-worldmap": "*",
+    "node-red-dashboard": "*",
+    "node-red-node-base64": "*",
+    "node-red-node-random": "*",
+    "node-red-node-serialport": "*",
+    "node-red-node-twitter": "*",
+    "node-red-node-ui-list": "*",
+    "strftime": "*"
+  }
+}
